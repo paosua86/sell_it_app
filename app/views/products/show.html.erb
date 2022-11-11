@@ -1,5 +1,5 @@
 <h1 class='title'><%= @product.title %></h1>
 <h2 class='prince'>$ <%= @product.prince %></h2>
 <p class="description"><%= @product.description %></p>
-
+<%= link_to "Edit product", edit_product_path(@product) %>
 
